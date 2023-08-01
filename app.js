@@ -8,6 +8,10 @@ app.get('/', (req, res, next) => {
     res.sendFile(__dirname + "/views/home.html")
 })
 
+app.get('/about', (req, res, next) => {
+    res.sendFile(__dirname + "/views/about.html")
+})
+
 app.get('*', (req, res, next) => {
     res.sendFile(__dirname + "/views/404.html")
 })
