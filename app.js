@@ -16,9 +16,16 @@ app.get('/career', (req, res, next) => {
     res.sendFile(__dirname + "/views/career.html")
 })
 
+app.get("/galery", (req, res , next) => {
+
+    res.sendFile(__dirname + "/views/galery.html")
+})
+
 app.get('*', (req, res, next) => {
     res.sendFile(__dirname + "/views/404.html")
 })
+
+
 
 
 

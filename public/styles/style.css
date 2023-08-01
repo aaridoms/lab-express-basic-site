@@ -58,6 +58,7 @@ h2 {
 .footerimg {
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 button {
@@ -77,4 +78,41 @@ a :hover {
 
 hr {
     width: 70%;
+}
+
+.galeryContainer img {
+border: 5px solid black;
+border-radius: 8px;
+   margin: 20px;
+    width: 400px;
+}
+
+.galeryContainer {
+
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+   
+
+}
+
+.footer ul {
+   
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.footer ul li {
+    margin: 25px;
 }
