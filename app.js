@@ -23,5 +23,5 @@ app.get('*', (req, res, next) => {
 
 
 app.listen(port, () => {
-    console.log("Funciona en server")
+    console.log(`El server esta funcionando el el puerto ${port}`)
 })
