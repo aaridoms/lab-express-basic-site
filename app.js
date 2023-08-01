@@ -12,9 +12,15 @@ app.get('/about', (req, res, next) => {
     res.sendFile(__dirname + "/views/about.html")
 })
 
+app.get('/career', (req, res, next) => {
+    res.sendFile(__dirname + "/views/career.html")
+})
+
 app.get('*', (req, res, next) => {
     res.sendFile(__dirname + "/views/404.html")
 })
+
+
 
 app.listen(port, () => {
     console.log("Funciona en server")
